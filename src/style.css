@@ -1,0 +1,9 @@
+body {
+  @apply m-0 text-white overflow-x-hidden bg-black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
