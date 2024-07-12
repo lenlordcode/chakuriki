@@ -1,5 +1,6 @@
 <template>
   <section class="contacts">
+    <h1 class="font-bold text-red-600 my-4">Контакты</h1>
     <section>
       <h2 class="font-bold text-red-600 my-4">E-mail</h2>
       <ul>

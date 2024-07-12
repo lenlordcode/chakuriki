@@ -1,6 +1,6 @@
 <template>
   <button>
-      <slot></slot>
+      <slot name="row" :callback="test"></slot>
   </button>
 </template>
 
@@ -12,6 +12,13 @@
 import {defineComponent} from 'vue'
 
 export default defineComponent({
-    name: "Button"
+    name: "Button",
+    methods: {
+      test () {
+        console.log ('test');
+      }
+    },
+
+
 })
 </script>

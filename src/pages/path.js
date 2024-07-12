@@ -3,6 +3,8 @@ import error from "@/pages/404.vue";
 import Federation from '@/pages/federation/Federation.vue'
 import FederationStructure from "@/pages/federationStructure/FederationStructure.vue";
 import News from "@/pages/news/News.vue";
+import NewsDetail from "@/pages/news/NewsDetail.vue";
+import NewsEdit from "@/pages/news/NewsEdit.vue";
 import ImportantInfo from "@/pages/important-info/ImportantInfo.vue";
 import Calendar from "@/pages/calendar/Calendar.vue";
 import Results from "@/pages/results/Results.vue";
@@ -17,6 +19,14 @@ export default createRouter({
         {
             path: '/news',
             component: News,
+        },
+        {
+            path: '/news/edit',
+            component: NewsEdit,
+        },
+        {
+            path: '/news/:id',
+            component: NewsDetail,
         },
         {
             path: '/federation',

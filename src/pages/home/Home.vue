@@ -72,7 +72,9 @@
 </style>
 
 <script>
-import {defineComponent} from 'vue'
+import {defineComponent, ref} from 'vue'
+
+
 
 export default defineComponent({
     name: "Home",
@@ -99,6 +101,8 @@ export default defineComponent({
         ]
       }
     },
+
+
     methods: {
       autoScrolling() {
         const text = this.$refs.scrollingText;
