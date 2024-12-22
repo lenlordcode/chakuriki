@@ -1,6 +1,10 @@
 <template>
   <div class="">
-    <img class="mx-auto" src="@/assets/headers.png">
+    <div class="mx-auto flex w-48 h-40">
+      <img src="@/assets/man-figheter.png">
+      <img src="@/assets/chakuriki-new-logo.png">
+      <img class="scale-x-[-1]" src="@/assets/man-figheter.png">
+    </div>
   </div>
 </template>
 
