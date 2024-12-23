@@ -1,6 +1,6 @@
 <template>
   <footer class="container mx-auto mt-10 text-sm">
-    <div class="bg-gradient-to-r from-yellow-400 to-red-600 via-transparent text-white px-6 py-3 rounded-lg">
+    <div class="bg-gradient-to-r from-gray-600 to-red-600 text-white px-6 py-3 rounded-lg">
 
       <div class="flex justify-center gap-6 mb-6">
         <img class="size-24" src="@/assets/chakuriki-logo.png">
@@ -8,7 +8,7 @@
       </div>
 
       <div class="flex justify-between sm:block xs:block ">
-        <div class="text-black sm:text-white xs:text-white">© Общероссийская Общественная организация <br> "Федерация ЧАКУРИКИ"<br> 2004-2023</div>
+        <div class="text-white sm:text-white xs:text-white">© Общероссийская Общественная организация <br> "Федерация ЧАКУРИКИ"<br> 2004-2023</div>
         <div>АДРЕС: <br>123022, г. Москва, ул. Большая Декабрьская, дом 10, ст. 2. <br>(станция метро улица 1905 года)</div><div>
           <div>
             <div>ТЕЛЕФОН:</div>

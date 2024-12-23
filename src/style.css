@@ -4,7 +4,7 @@ body {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(112, 13, 13);
+  background: linear-gradient(rgb(206, 200, 200), rgba(255, 255, 0, 0.767))
 }
 
 
